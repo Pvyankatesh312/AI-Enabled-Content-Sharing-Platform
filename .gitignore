@@ -1,5 +1,6 @@
 node_modules/
 .env
 uploads/
+/src/config/database.db
 npm-debug.log*
 .DS_Store

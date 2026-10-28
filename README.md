@@ -1,12 +1,12 @@
-# Akatsuki Content Sharing API
+# AI-Enabled Content Sharing Platform
 
-Node.js and Express backend for a content-sharing platform with MongoDB, JWT authentication, post moderation, file uploads, and Gemini-assisted writing.
+AI-powered content sharing platform backend built with Node.js, Express, and MongoDB, featuring JWT authentication, post and draft management, admin approval workflows, and Google Gemini-powered content improvement.
 
 ## Requirements
 
 - Node.js 20+
 - MongoDB
-- A Gemini API key
+- A Gemini API key to use AI improvement
 
 ## Run locally
 
