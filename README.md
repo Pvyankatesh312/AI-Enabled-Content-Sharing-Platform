@@ -15,7 +15,7 @@ AI-powered content sharing platform backend built with Node.js, Express, and Mon
 3. Start MongoDB.
 4. Run `npm run dev` for development or `npm start` for production.
 
-The API listens on port `3000` by default. `GET /health` pings MongoDB and returns HTTP `200` only when the database is reachable; otherwise, it returns HTTP `503`.
+The API listens on port `3000` by default. If that port is already in use, startup retries on the next port and logs the port it bound to. Set `PORT` to choose a different preferred port. `GET /health` pings MongoDB and returns HTTP `200` only when the database is reachable; otherwise, it returns HTTP `503`.
 
 ## Authentication
 
